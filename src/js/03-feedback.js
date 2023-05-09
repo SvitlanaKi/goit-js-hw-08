@@ -15,6 +15,7 @@ const handleSubmit = e => {
   e.preventDefault();
   localStorage.removeItem('feedback-form-state');
   form.reset();
+  console.log(formData);
   formData = {};
 };
 
